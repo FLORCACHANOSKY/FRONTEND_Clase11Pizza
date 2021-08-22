@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px
+}
+
+body {
+    background-color: #E5E5E5;
+}
+.padre1 {
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1024px;
+    height: 100px;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    justify-content: flex-start;
+    padding: 10px
+    
+}
+
+h1 {
+    color:  #39B24A;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin: 10px
+}
+
+.y {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+
+}
+
+.Front {
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.navegador1 {
+    display: flex;
+    color: #F3F3F3;
+    align-items: center;
+    align-self: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px
+
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+
+}
+
+
+.padre2 {
+    background-image: url ('/Users/florcachanosky/Desktop/Flor/DH/B1/FRONTEND I/CLASE 11/img/Moto.jpg');
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 490px;
+    height: 350px;
+    position: absolute;
+    top: 135px;
+    right: 115px;
+    bottom: 193px;
+    left: 19px;
+}
+
+.hijo2 {
+
+    display: flex;
+    align-self: flex-start;
+    padding: 15px;
+}
+
+
+h3 {
+    color: #FC200C;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+
+.comprando {
+    color: white;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+}
+
+
+.padre3 {
+
+    background-color: white;
+    width: 491px;
+    height: 350px;
+    position: absolute;
+    top: 135px;
+    right: 19px; 
+    bottom: 193px; 
+    left: 514px;  
+    display: flex;
+    
+}
+
+.hijo3 {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+
+}
+
+.hijo3b {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: center;
+
+}
+
+.pizzavol {
+    height: 129px;
+    width: 92px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+
+
+footer {
+    background-color: #222222;
+    position: absolute;
+    top: 520px;
+    width: 1024px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+ul {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #F3F3F3;
+display: flex;
+justify-content: flex-start;
+padding: 10px;
+flex-direction: column;
+margin: 10px;
+}
+
+li {
+    margin: 4px;
+}
+.hijo4b {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    justify-content: flex-end;
+    padding: 10px
+    
+}

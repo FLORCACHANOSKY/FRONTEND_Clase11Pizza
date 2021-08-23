@@ -69,7 +69,7 @@ a {
 
 
 .padre2 {
-    background-image: url ('/Users/florcachanosky/Desktop/Flor/DH/B1/FRONTEND I/CLASE 11/img/Moto.jpg');
+    background-image: url('../img/Moto.jpg');
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
